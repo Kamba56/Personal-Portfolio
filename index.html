@@ -24,7 +24,7 @@
     </header>
 
     <main>
-      <section id="headline" class="flex-column container">
+      <section id="headline" class="flex-column container center-align">
         <h1 class="color1 bold center-text big-font">Hey there. I’m Kamba</h1>
         <h2 class="color2 bold center-text big-font">
           I’m a software developer
@@ -61,7 +61,7 @@
         </button>
       </section>
 
-      <section id="work" class="container">
+      <section id="work" class="flex-column container center-align">
         <h2 class="bold big-font color1 center-text title">My Recent Works</h2>
 
         <div class="work-grid">
@@ -214,14 +214,14 @@
         </div>
       </section>
 
-      <section id="about" class="flex-column container">
-        <h2 class="bold big-font center-text">About</h2>
-        <p class="regular regular-font center-text about-desc">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-        <button type="button" class="btn">Get My Resume</button>
+      <section id="about" class="flex-column container center-align">
+          <h2 class="bold big-font center-text">About</h2>
+          <p class="regular regular-font center-text about-desc">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+          <button type="button" class="btn">Get My Resume</button>
 
         <div class="work-grid">
           <div class="grid-item about-item">
@@ -270,6 +270,48 @@
           </div>
         </div>
       </section>
+
+      <section id="contact" class="flex-column container center-align">
+        <h2 class="bold big-font center-text color1">
+          I'm always interested in hearing about new projects, so if you'd like
+          to chat please get in touch.
+        </h2>
+
+        <form action="#" id="contact-form" class="flex-column center-align">
+          <input type="text" name="name" placeholder="Full name" />
+          <input type="email" name="email" placeholder="Email address" />
+          <textarea name="comment" id="comment" cols="30" rows="10">
+Enter text here</textarea
+          >
+          <button type="submit" class="btn">Get in touch</button>
+        </form>
+      </section>
     </main>
+
+    <footer class="flex-column container center-align">
+      <ul class="social flex-row">
+        <li>
+          <a href="#" class="regular-font"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="regular-font"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="regular-font"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="regular-font"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+      </ul>
+      <a href="#" class="color2 regular">tomajohn316@yahoo.com</a>
+    </footer>
   </body>
 </html>
