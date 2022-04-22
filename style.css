@@ -155,7 +155,6 @@ header {
 }
 
 .grid-item {
-  /* width: calc(100%-40px); */
   height: auto;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
@@ -199,7 +198,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.btn{
+.btn {
   padding: 12px;
   background: #36B37F;
   border-radius: 4px;
@@ -208,4 +207,31 @@ header {
   line-height: 24px;
   color: #fff;
   letter-spacing: 00.03em;
+}
+
+/* About section style */
+.about-desc {
+  margin: 24px auto;
+}
+
+#about {
+  align-items: center;
+}
+
+.about-icons {
+  height: 80px;
+  width: 80px;
+  margin: 40px auto 64px auto;
+  border-radius: 50%;
+  background: #fff;
+  padding: 18px;
+}
+
+.about-item {
+  padding: 0 20px 70px 20px;
+  background: #ebf0ee;
+}
+
+.about-lang li {
+  background: #fff;
 }
