@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.regular {
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.semi-bold {
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.color1 {
+  color: #172b4d;
+}
+
+.color2 {
+  color: #36b37f;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.big-font {
+  font-size: 40px;
+}
+
+.regular-font {
+  font-size: 20px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header Styling */
+header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+#logo {
+  color: #28352f;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+#headline {
+  align-items: center;
+  background: url(assets/img/mobile-head-bg.svg);
+  background-repeat: no-repeat;
+  background-position: contain;
+  padding: 64px 24px;
+}
+
+.social {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.social li a {
+  display: block;
+  padding: 10px;
+  color: #505f79;
+}
+
+#desc {
+  margin: 60px auto;
+}
+
+#down-arrow {
+  border: 1px solid #dfe1e6;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 15px;
+}
