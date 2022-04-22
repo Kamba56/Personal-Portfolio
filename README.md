@@ -20,9 +20,9 @@
 
 👤 **Toma John Musa**
 
-- GitHub: [@githubhandle](https://github.com/Kamba56)
-- Twitter: [@twitterhandle](https://twitter.com/Kamba_TJ)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/toma-john-47092622b)
+- GitHub: [@Kamba56](https://github.com/Kamba56)
+- Twitter: [@Kamba_TJ](https://twitter.com/Kamba_TJ)
+- LinkedIn: [Toma](https://linkedin.com/in/toma-john-47092622b)
 
 ## Show your support
 
