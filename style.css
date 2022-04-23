@@ -223,6 +223,22 @@ header {
 }
 
 /* About section style */
+#about {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#about-bg {
+  padding: 0 24px;
+  background: url(assets/img/about-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-grid {
+  padding: 0 24px;
+}
+
 .about-desc {
   margin: 24px auto;
 }
