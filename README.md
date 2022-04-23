@@ -2,8 +2,13 @@
 
 # Project Name
 
-> Setup and Mobile skeleton.
-![Screenshot](mobile-head.png)
+> Portfolio Mobile version.
+
+# Screenshots
+
+![Screenshot](assets/screenshots/mobile-head.png)
+![Screenshot](assets/screenshots/work.png)
+![Screenshot](assets/screenshots/about.png)
 
 ## Built With
 
@@ -14,9 +19,9 @@
 
 👤 **Toma John Musa**
 
-- GitHub: [@githubhandle](https://github.com/Kamba56)
-- Twitter: [@twitterhandle](https://twitter.com/Kamba_TJ)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/toma-john-47092622b)
+- GitHub: [@Kamba56](https://github.com/Kamba56)
+- Twitter: [@Kamba_TJ](https://twitter.com/Kamba_TJ)
+- LinkedIn: [Toma](https://linkedin.com/in/toma-john-47092622b)
 
 ## Show your support
 
