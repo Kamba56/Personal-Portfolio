@@ -9,7 +9,6 @@
 ![Screenshot](assets/screenshots/mobile-head.png)
 ![Screenshot](assets/screenshots/work.png)
 ![Screenshot](assets/screenshots/about.png)
-![Screenshot](assets/screenshots/contact.png)
 
 ## Built With
 
