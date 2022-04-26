@@ -18,7 +18,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](index.html)
+[Live Demo Link](https://Kamba56.github.io/Personal-Portfolio/)
 
 ## Authors
 
