@@ -16,9 +16,6 @@
 - HTML
 - CSS
 
-## Live Demo (if available)
-
-[Live Demo Link](https://Kamba56.github.io/Personal-Portfolio/)
 
 ## Authors
 
