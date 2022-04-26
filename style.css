@@ -260,3 +260,34 @@ header {
 .about-lang li {
   background: #fff;
 }
+
+/* Contact section style */
+#contact-form {
+  width: 100%;
+  padding-top: 58px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+  padding-left: 16px;
+  margin-bottom: 24px;
+}
+
+#contact-form textarea {
+  height: 114px;
+  border: 1px solid #60c095;
+}
+
+/* Footer style */
+footer.container {
+  padding-bottom: 200px;
+}
+
+footer .social {
+  margin-bottom: 0;
+}
