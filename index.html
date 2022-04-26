@@ -259,19 +259,19 @@
         </h2>
 
         <form
-          action="#"
+          action="https://formspree.io/f/mgedpaqj"
           method="post"
           id="contact-form"
           class="flex-column center-align"
         >
-          <input type="text" name="name" placeholder="Full name" required />
+          <input type="text" name="name" placeholder="Full name" required maxlength="30" />
           <input
             type="email"
             name="email"
             placeholder="Email address"
             required
           />
-          <textarea name="comment" id="comment" cols="30" rows="10" required>
+          <textarea name="message" id="comment" cols="30" rows="10" required maxlength="500">
 Enter text here</textarea
           >
           <button type="submit" class="btn">Get in touch</button>
