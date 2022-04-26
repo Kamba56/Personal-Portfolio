@@ -9,11 +9,13 @@
 ![Screenshot](assets/screenshots/mobile-head.png)
 ![Screenshot](assets/screenshots/work.png)
 ![Screenshot](assets/screenshots/about.png)
+![Screenshot](assets/screenshots/contact.png)
 
 ## Built With
 
 - HTML
 - CSS
+
 
 ## Authors
 
@@ -29,6 +31,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- [Victor](https://github.com/jheart-vic)
 - Microverse Community
 
 ## 📝 License
