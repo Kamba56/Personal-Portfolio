@@ -88,7 +88,8 @@ ul {
   height: auto;
 }
 
-.container, .container1{
+.container,
+.container1 {
   padding: 64px 0;
   margin: 0 auto;
   width: calc(100% - 48px);
@@ -244,7 +245,7 @@ header {
 }
 
 #about-bg {
-  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\).svg);
+  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\) .svg);
   background-repeat: no-repeat;
   background-position-x: center;
 }
@@ -318,7 +319,7 @@ footer .social {
 }
 
 /* Media Queries */
-@media only screen and (min-width:768px){
+@media only screen and (min-width: 768px) {
   .container {
     width: 80%;
     padding: 30px 0;
@@ -328,7 +329,10 @@ footer .social {
     width: 60%;
   }
 
-  #toggle-menu, #logo, .logo-div, footer .mail {
+  #toggle-menu,
+  #logo,
+  .logo-div,
+  footer .mail {
     display: none;
   }
 
@@ -348,7 +352,7 @@ footer .social {
   }
 
   /* Header */
-  header{
+  header {
     justify-content: center;
     padding: 10px;
     z-index: 100;
@@ -386,13 +390,13 @@ footer .social {
   }
 
   /* About section */
-#about-bg{
-  background: url(assets/img/illustration\ about\ me\ desktop.svg);
-  background-position-x: center;
-  background-repeat: no-repeat;
-}
+  #about-bg {
+    background: url(assets/img/illustration\ about\ me\ desktop.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
 
-/* Contact section */
+  /* Contact section */
   section#contact {
     background: url(assets/img/contact-bg.svg);
     background-position-x: center;
