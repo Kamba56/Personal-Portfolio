@@ -228,6 +228,10 @@ header {
   line-height: 24px;
   color: #fff;
   letter-spacing: 00.03em;
+  transition-property: box-shadow, background;
+  transition-duration: 1s, 1.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 10ms;
 }
 
 .btn:hover {
@@ -245,7 +249,7 @@ header {
 }
 
 #about-bg {
-  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\) .svg);
+  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\).svg);
   background-repeat: no-repeat;
   background-position-x: center;
 }
