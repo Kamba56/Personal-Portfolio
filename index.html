@@ -15,19 +15,24 @@
   </head>
   <body>
     <header class="flex-row">
-      <div class="regular"><a href="#" id="logo">Welcome</a></div>
+      <div class="regular logo-div"><a href="#" id="logo">Welcome</a></div>
       <nav>
         <button type="button" id="toggle-menu" class="regular-font">
           <i class="fa-solid fa-bars"></i>
         </button>
+        <ul class="flex-row center-align desktop-nav">
+          <li><a href="#" class="semi-bold color1">Portfolio</a></li>
+          <li><a href="#" class="semi-bold color1">About</a></li>
+          <li><a href="#" class="semi-bold color1">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
       <section id="headline" class="wrapper">
         <div class="container1 flex-column  center-align">
-          <h1 class="color1 bold center-text big-font">Hey there. I’m Kamba</h1>
-          <h2 class="color2 bold center-text big-font">
+          <h1 class="color1 bold center-text big-font extra-bold">Hey there. I’m Toma</h1>
+          <h2 class="color2 bold center-text big-font extra-bold">
             I’m a software developer
           </h2>
           <p id="desc" class="center-text color1 regular regular-font">
@@ -234,10 +239,11 @@
             <h3 class="semi-bold center-text work-title">Frameworks</h3>
 
             <ul class="language flex-row about-lang color2">
-              <li>Ruby</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>Rspec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
             </ul>
           </div>
 
@@ -249,42 +255,44 @@
             <h3 class="semi-bold center-text work-title">Skills</h3>
 
             <ul class="language flex-row about-lang color2">
-              <li>Ruby</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>HTML</li>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
             </ul>
           </div>
         </div>
       </section>
       
-      <section id="contact" class="flex-column container center-align">
-        <h2 class="bold big-font center-text color1">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h2>
-
-        <form
-          action="https://formspree.io/f/mgedpaqj"
-          method="post"
-          id="contact-form"
-          class="flex-column center-align"
-        >
-          <input type="text" name="name" placeholder="Full name" maxlength="30" required>
-          <input
-            type="email"
-            name="email"
-            placeholder="Email address"
-            required
-          />
-          <textarea name="message" id="comment" cols="30" rows="10" maxlength="500" required>
-Enter text here</textarea
+      <section id="contact" class="wrapper">
+        <div class="flex-column container center-align contact-sect">
+          <h2 class="bold big-font center-text color1">
+            I'm always interested in hearing about new projects, so if you'd like
+            to chat please get in touch.
+          </h2>
+  
+          <form
+            action="https://formspree.io/f/mgedpaqj"
+            method="post"
+            id="contact-form"
+            class="flex-column center-align"
           >
-          <button type="submit" class="btn">Get in touch</button>
-        </form>
+            <input type="text" name="name" placeholder="Full name" maxlength="30" required>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <textarea name="message" id="comment" cols="30" rows="10" placeholder="Enter text here" maxlength="500" required></textarea
+            >
+            <button type="submit" class="btn">Get in touch</button>
+          </form>
+        </div>
       </section>
 
-      <footer class="flex-column container center-align">
+      <footer class="flex-column wrapper center-align">
         <ul class="social flex-row">
           <li>
             <a href="#" class="regular-font"
@@ -307,7 +315,7 @@ Enter text here</textarea
             ></a>
           </li>
         </ul>
-        <a href="#" class="color2 regular">tomajohn316@yahoo.com</a>
+        <a href="#" class="color2 regular mail">tomajohn316@yahoo.com</a>
       </footer>
     </main>
   </body>
