@@ -79,9 +79,15 @@ ul {
   align-items: center;
 }
 
-.container {
-  padding: 64px 24px 0 24px;
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.container, .container1{
+  padding: 64px 0;
   margin: 0 auto;
+  width: calc(100% - 48px);
 }
 
 /* Header Styling */
@@ -102,7 +108,7 @@ header {
   align-items: center;
   background: url(assets/img/mobile-head-bg.svg);
   background-repeat: no-repeat;
-  background-position: contain;
+  background-position-x: center;
 }
 
 .social {
@@ -151,7 +157,7 @@ header {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: auto;
   grid-row-gap: 24px;
   grid-column-gap: 20px;
@@ -163,6 +169,9 @@ header {
   height: auto;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
 }
 
 .grid-item figure {
@@ -229,10 +238,10 @@ header {
 }
 
 #about-bg {
-  padding: 0 24px;
   background: url(assets/img/about-bg.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position-x: center;
 }
 
 .about-grid {
@@ -290,4 +299,20 @@ footer.container {
 
 footer .social {
   margin-bottom: 0;
+}
+
+/* Media Queries */
+@media only screen and (min-width:768px){
+  .container {
+    width: 80%;
+  }
+
+  .container1 {
+    width: 60%;
+  }
+
+  section#contact {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
