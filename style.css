@@ -10,6 +10,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+ul.desktop-nav {
+  display: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -79,9 +83,16 @@ ul {
   align-items: center;
 }
 
-.container {
-  padding: 64px 24px 0 24px;
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.container,
+.container1 {
+  padding: 64px 0;
   margin: 0 auto;
+  width: calc(100% - 48px);
 }
 
 /* Header Styling */
@@ -100,9 +111,9 @@ header {
 
 #headline {
   align-items: center;
-  background: url(assets/img/mobile-head-bg.svg);
+  background: url(assets/img/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
-  background-position: contain;
+  background-position-x: center;
 }
 
 .social {
@@ -151,7 +162,7 @@ header {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-template-rows: auto;
   grid-row-gap: 24px;
   grid-column-gap: 20px;
@@ -163,6 +174,9 @@ header {
   height: auto;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
 }
 
 .grid-item figure {
@@ -188,7 +202,7 @@ header {
 
 .language {
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 16px 0 29px 0;
 }
@@ -201,6 +215,8 @@ header {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  margin: 0 4px;
+  margin-bottom: 7px;
 }
 
 .btn {
@@ -229,10 +245,9 @@ header {
 }
 
 #about-bg {
-  padding: 0 24px;
-  background: url(assets/img/about-bg.svg);
+  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\) .svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position-x: center;
 }
 
 .about-grid {
@@ -257,11 +272,22 @@ header {
   background: #ebf0ee;
 }
 
+.about-lang {
+  flex-wrap: wrap;
+  margin: 16px 0;
+}
+
 .about-lang li {
   background: #fff;
 }
 
 /* Contact section style */
+section#contact {
+  background: url(assets/img/illustration-contact-form.svg);
+  background-repeat: no-repeat;
+  background-position: 320px bottom;
+}
+
 #contact-form {
   width: 100%;
   padding-top: 58px;
@@ -284,10 +310,120 @@ header {
 }
 
 /* Footer style */
-footer.container {
+footer {
   padding-bottom: 200px;
 }
 
 footer .social {
   margin-bottom: 0;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+    padding: 30px 0;
+  }
+
+  .container1 {
+    width: 60%;
+  }
+
+  #toggle-menu,
+  #logo,
+  .logo-div,
+  footer .mail {
+    display: none;
+  }
+
+  .extra-bold {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+  }
+
+  .regular {
+    line-height: 32px;
+  }
+
+  .social li a {
+    font-size: 24px;
+  }
+
+  /* Header */
+  header {
+    justify-content: center;
+    padding: 10px;
+    z-index: 100;
+  }
+
+  #headline {
+    background: url(assets/img/Header-llustration-desktop.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -53px;
+    padding-top: 170px;
+    padding-bottom: 100px;
+    z-index: 0;
+  }
+
+  ul.desktop-nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .desktop-nav li a {
+    display: block;
+    padding: 0 20px;
+    font-size: 18px;
+  }
+
+  /* Work section */
+  .title::after {
+    display: none;
+  }
+
+  .work-grid {
+    margin: 20px auto;
+  }
+
+  /* About section */
+  #about-bg {
+    background: url(assets/img/illustration\ about\ me\ desktop.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Contact section */
+  section#contact {
+    background: url(assets/img/contact-bg.svg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+  }
+
+  .contact-sect {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-sect h2 {
+    flex: 5;
+    padding-right: 10px;
+    text-align: left;
+  }
+
+  #contact-form {
+    flex: 6;
+    align-items: flex-start;
+  }
+
+  /* Footer section */
+  footer {
+    padding: 5px;
+    border-top: 1px solid #dfe1e6;
+  }
 }

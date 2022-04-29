@@ -2,19 +2,22 @@
 
 # Project Name
 
-> Portfolio Mobile version.
+> Portfolio Desktop version.
 
 # Screenshots
 
-![Screenshot](assets/screenshots/mobile-head.png)
-![Screenshot](assets/screenshots/work.png)
-![Screenshot](assets/screenshots/about.png)
-![Screenshot](assets/screenshots/contact.png)
+![Screenshot](assets/screenshots/desktop1.png)
+![Screenshot](assets/screenshots/Desktop2.png)
 
 ## Built With
 
 - HTML
 - CSS
+
+
+## Live Demo (if available)
+
+[Live Demo Link](https://kamba56.github.io/Personal-Portfolio/)
 
 
 ## Authors
@@ -31,7 +34,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- [Victor](https://github.com/jheart-vic)
 - Microverse Community
 
 ## 📝 License

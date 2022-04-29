@@ -15,196 +15,211 @@
   </head>
   <body>
     <header class="flex-row">
-      <div class="regular"><a href="#" id="logo">Welcome</a></div>
+      <div class="regular logo-div"><a href="#" id="logo">Welcome</a></div>
       <nav>
         <button type="button" id="toggle-menu" class="regular-font">
           <i class="fa-solid fa-bars"></i>
         </button>
+        <ul class="flex-row center-align desktop-nav">
+          <li><a href="#" class="semi-bold color1">Portfolio</a></li>
+          <li><a href="#" class="semi-bold color1">About</a></li>
+          <li><a href="#" class="semi-bold color1">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section id="headline" class="flex-column container center-align">
-        <h1 class="color1 bold center-text big-font">Hey there. I’m Kamba</h1>
-        <h2 class="color2 bold center-text big-font">
-          I’m a software developer
-        </h2>
-        <p id="desc" class="center-text color1 regular regular-font">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-        <ul class="social flex-row">
-          <li>
-            <a href="#" class="regular-font"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="regular-font"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="regular-font"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="regular-font"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </li>
-        </ul>
-        <button type="button" id="down-arrow">
-          <i class="fa-solid fa-angle-down"></i>
-        </button>
-      </section>
-
-      <section id="work" class="flex-column container center-align">
-        <h2 class="bold big-font color1 center-text title">My Recent Works</h2>
-
-        <div class="work-grid">
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-
-          <div class="grid-item">
-            <figure>
-              <img src="#" alt="Picture of my work" />
-            </figure>
-
-            <div class="work-desc flex-column">
-              <h3 class="semi-bold center-text work-title">
-                Multi-Post Stories Gain+Glory
-              </h3>
-
-              <ul class="language flex-row">
-                <li>Ruby on rails</li>
-                <li>Css</li>
-                <li>Javascript</li>
-                <li>HTML</li>
-              </ul>
-
-              <button type="button" class="btn">See Project</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="flex-column container center-align">
-        <div id="about-bg" class="flex-column center-align">
-          <h2 class="bold big-font center-text color1">About me</h2>
-          <p class="regular regular-font center-text about-desc color1">
+      <section id="headline" class="wrapper">
+        <div class="container1 flex-column center-align">
+          <h1 class="color1 bold center-text big-font extra-bold">
+            Hey there. I’m Toma
+          </h1>
+          <h2 class="color2 bold center-text big-font extra-bold">
+            I’m a software developer
+          </h2>
+          <p id="desc" class="center-text color1 regular regular-font">
             I can help you build a product , feature or website Look through
             some of my work and experience! If you like what you see and have a
             project you need coded, don’t hestiate to contact me.
           </p>
-          <button type="button" class="btn">Get My Resume</button>
+          <ul class="social flex-row">
+            <li>
+              <a href="#" class="regular-font"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="regular-font"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="regular-font"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="regular-font"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+          </ul>
+          <button type="button" id="down-arrow">
+            <i class="fa-solid fa-angle-down"></i>
+          </button>
+        </div>
+      </section>
+
+      <section id="work" class="wrapper">
+        <div class="container flex-column center-align">
+          <h2 class="bold big-font color1 center-text title">
+            My Recent Works
+          </h2>
+
+          <div class="work-grid">
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+
+            <div class="grid-item">
+              <figure>
+                <img src="#" alt="Picture of my work" />
+              </figure>
+
+              <div class="work-desc flex-column">
+                <h3 class="semi-bold center-text work-title">
+                  Multi-Post Stories Gain+Glory
+                </h3>
+
+                <ul class="language flex-row">
+                  <li>Ruby on rails</li>
+                  <li>Css</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                </ul>
+
+                <button type="button" class="btn">See Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="flex-column wrapper center-align">
+        <div id="about-bg">
+          <div class="container1 flex-column center-align">
+            <h2 class="bold big-font center-text color1">About me</h2>
+            <p class="regular regular-font center-text about-desc color1">
+              I can help you build a product , feature or website Look through
+              some of my work and experience! If you like what you see and have
+              a project you need coded, don’t hestiate to contact me.
+            </p>
+            <button type="button" class="btn">Get My Resume</button>
+          </div>
         </div>
 
-        <div class="work-grid about-grid">
+        <div class="work-grid about-grid container">
           <div class="grid-item about-item">
             <div class="about-icons">
               <img src="assets/img/lang.svg" alt="Languages Icon" />
@@ -228,10 +243,11 @@
             <h3 class="semi-bold center-text work-title">Frameworks</h3>
 
             <ul class="language flex-row about-lang color2">
-              <li>Ruby</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+              <li>Rspec</li>
+              <li>Capybara</li>
+              <li>Selenium</li>
             </ul>
           </div>
 
@@ -243,42 +259,57 @@
             <h3 class="semi-bold center-text work-title">Skills</h3>
 
             <ul class="language flex-row about-lang color2">
-              <li>Ruby</li>
-              <li>Css</li>
-              <li>Javascript</li>
-              <li>HTML</li>
+              <li>Codekit</li>
+              <li>Github</li>
+              <li>Codepen</li>
+              <li>Gitlab</li>
+              <li>Terminal</li>
             </ul>
           </div>
         </div>
       </section>
-      
-      <section id="contact" class="flex-column container center-align">
-        <h2 class="bold big-font center-text color1">
-          I'm always interested in hearing about new projects, so if you'd like
-          to chat please get in touch.
-        </h2>
 
-        <form
-          action="https://formspree.io/f/mgedpaqj"
-          method="post"
-          id="contact-form"
-          class="flex-column center-align"
-        >
-          <input type="text" name="name" placeholder="Full name" maxlength="30" required>
-          <input
-            type="email"
-            name="email"
-            placeholder="Email address"
-            required
-          />
-          <textarea name="message" id="comment" cols="30" rows="10" maxlength="500" required>
-Enter text here</textarea
+      <section id="contact" class="wrapper">
+        <div class="flex-column container center-align contact-sect">
+          <h2 class="bold big-font center-text color1">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </h2>
+
+          <form
+            action="https://formspree.io/f/mgedpaqj"
+            method="post"
+            id="contact-form"
+            class="flex-column center-align"
           >
-          <button type="submit" class="btn">Get in touch</button>
-        </form>
+            <input
+              type="text"
+              name="name"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              name="message"
+              id="comment"
+              cols="30"
+              rows="10"
+              placeholder="Enter text here"
+              maxlength="500"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Get in touch</button>
+          </form>
+        </div>
       </section>
 
-      <footer class="flex-column container center-align">
+      <footer class="flex-column wrapper center-align">
         <ul class="social flex-row">
           <li>
             <a href="#" class="regular-font"
@@ -301,7 +332,7 @@ Enter text here</textarea
             ></a>
           </li>
         </ul>
-        <a href="#" class="color2 regular">tomajohn316@yahoo.com</a>
+        <a href="#" class="color2 regular mail">tomajohn316@yahoo.com</a>
       </footer>
     </main>
   </body>
