@@ -228,10 +228,7 @@ header {
   line-height: 24px;
   color: #fff;
   letter-spacing: 00.03em;
-  transition-property: box-shadow, background;
-  transition-duration: 1s, 1.5s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 10ms;
+  transition: box-shadow 1s ease-in-out 10ms, background 0.5s ease-in-out 10ms;
 }
 
 .btn:hover {
