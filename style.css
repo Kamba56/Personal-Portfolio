@@ -64,10 +64,6 @@ ul {
   color: #36b37f;
 }
 
-.color3 {
-  color: #67798e;
-}
-
 .center-text {
   text-align: center;
 }
@@ -139,8 +135,14 @@ header {
   flex-wrap: wrap;
 }
 
-#toggle-menu {
+#toggle-menu, #toggle-menu-close{
   z-index: 100;
+  padding-right: 20px;
+}
+
+#toggle-menu-close {
+  font-size: 28px;
+  color: #67798e65;
 }
 
 #logo {
@@ -156,13 +158,23 @@ header {
 }
 
 .mobile-nav {
-  min-height: 100vh;
-  background: #ffffff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 40px;
+  min-height: 94vh;
+  background: #fff;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 10;
+  border-radius: 0 0 30px 30px;
+  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.2);
+}
+
+.mobile-nav li a {
+  font-size: 32px;
+  line-height: 70px;
 }
 
 /* Headline section style */
