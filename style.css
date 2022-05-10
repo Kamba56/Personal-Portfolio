@@ -101,7 +101,7 @@ ul {
   display: block;
 }
 
-/* Toggle nav styles 
+/* Toggle nav styles
 .blur {
   filter: blur(3px);
 }
@@ -125,7 +125,7 @@ ul {
 
 #toggle-menu-close {
   color: #67798e;
-}*/
+} */
 
 /* Header Styling */
 header {
@@ -135,7 +135,8 @@ header {
   flex-wrap: wrap;
 }
 
-#toggle-menu, #toggle-menu-close{
+#toggle-menu,
+#toggle-menu-close {
   z-index: 100;
   padding-right: 20px;
 }
@@ -169,7 +170,7 @@ header {
   left: 0;
   z-index: 10;
   border-radius: 0 0 30px 30px;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.2);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.2);
 }
 
 .mobile-nav li a {
@@ -315,7 +316,7 @@ header {
 }
 
 #about-bg {
-  background: url(assets/img/illustration-\ about\ me-\ mobile\ \(1\) .svg);
+  background: url(assets/img/illustration-about-me-mobile.svg);
   background-repeat: no-repeat;
   background-position-x: center;
 }
@@ -406,6 +407,10 @@ footer .social {
     display: none;
   }
 
+  #navbar {
+    display: block;
+  }
+
   .extra-bold {
     font-weight: 800;
     font-size: 48px;
@@ -425,6 +430,10 @@ footer .social {
   header {
     justify-content: center;
     padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 9;
   }
 
@@ -432,8 +441,6 @@ footer .social {
     background: url(assets/img/Header-llustration-desktop.svg);
     background-position-x: center;
     background-repeat: no-repeat;
-    position: relative;
-    top: -53px;
     padding-top: 170px;
     padding-bottom: 100px;
     z-index: 0;
@@ -461,7 +468,7 @@ footer .social {
 
   /* About section */
   #about-bg {
-    background: url(assets/img/illustration\ about\ me\ desktop.svg);
+    background: url(assets/img/illustration-about-me-desktop.svg);
     background-position-x: center;
     background-repeat: no-repeat;
   }
