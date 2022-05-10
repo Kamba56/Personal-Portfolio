@@ -13,6 +13,7 @@
 
 - HTML
 - CSS
+- JavaScript
 
 
 ## Live Demo (if available)
@@ -35,6 +36,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse Community
+- [@silvia](https://github.com/silviatofana)
 
 ## 📝 License
 
