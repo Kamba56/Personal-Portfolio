@@ -10,9 +10,9 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-ul.desktop-nav {
+/* ul.desktop-nav {
   display: none;
-}
+} */
 
 a {
   text-decoration: none;
@@ -94,9 +94,33 @@ ul {
   margin: 0 auto;
   width: calc(100% - 48px);
 }
+
+/* Toggle nav styles */
 .blur {
   filter: blur(3px);
 }
+
+.mobile-nav{
+  min-height: 100vh;
+  background: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+#toggle-menu-close {
+  color: #67798e;
+}
+
 /* Header Styling */
 header {
   justify-content: space-between;
