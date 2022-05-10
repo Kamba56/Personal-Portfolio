@@ -16,14 +16,17 @@
   <body>
     <header class="flex-row">
       <div class="regular logo-div"><a href="#" id="logo">Welcome</a></div>
-      <nav>
-        <button type="button" id="toggle-menu" class="regular-font">
-          <i class="fa-solid fa-bars"></i>
-        </button>
+      <button type="button" id="toggle-menu" class="regular-font d-block">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <button type="button" id="toggle-menu-close" class="d-none color3">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <nav id="navbar" class="d-none">
         <ul class="flex-row center-align desktop-nav">
-          <li><a href="#" class="semi-bold color1">Portfolio</a></li>
-          <li><a href="#" class="semi-bold color1">About</a></li>
-          <li><a href="#" class="semi-bold color1">Contact</a></li>
+          <li><a href="#work" class="semi-bold color1">Portfolio</a></li>
+          <li><a href="#about" class="semi-bold color1">About</a></li>
+          <li><a href="#contact" class="semi-bold color1">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -335,5 +338,7 @@
         <a href="#" class="color2 regular mail">tomajohn316@yahoo.com</a>
       </footer>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
