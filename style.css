@@ -94,7 +94,9 @@ ul {
   margin: 0 auto;
   width: calc(100% - 48px);
 }
-
+.blur {
+  filter: blur(3px);
+}
 /* Header Styling */
 header {
   justify-content: space-between;
