@@ -1,14 +1,13 @@
-let menu = document.querySelector('#toggle-menu');
-let closeMenu = document.querySelector('#toggle-menu-close');
-let body = document.querySelector('body');
-let nav = document.querySelector('ul.desktop-nav');
+const menu = document.querySelector('#toggle-menu');
+const icon = document.querySelector('#toggle-menu i')
+const nav = document.querySelector('nav#navbar');
+const body = document.querySelector('body');
+const link = document.querySelectorAll('nav ul li a');
+const navul = document.querySelector('ul.desktop-nav');
 
 function openMenu() {
-  menu.classList.add('d-none');
-  closeMenu.classList.remove('d-none');
-  closeMenu.classList.add('d-block');
-  nav.classList.remove('flex-row', 'd-none');
-  nav.classList.add('flex-column', 'mobile-nav', 'd-block');
+  nav.classList.replace('d-none', 'd-block');
+  icon.classList.replace('fa-bars', 'fa-xmark');e
 }
 
 menu.addEventListener('click', openMenu);

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+/* General styling */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,10 +10,6 @@
 body {
   font-family: 'Inter', sans-serif;
 }
-
-/* ul.desktop-nav {
-  display: none;
-} */
 
 a {
   text-decoration: none;
@@ -35,6 +32,7 @@ ul {
   list-style-type: none;
 }
 
+/* My universal classes */
 .bold {
   font-weight: 700;
   line-height: 52px;
@@ -50,6 +48,14 @@ ul {
   line-height: 32px;
 }
 
+.big-font {
+  font-size: 40px;
+}
+
+.regular-font {
+  font-size: 20px;
+}
+
 .color1 {
   color: #172b4d;
 }
@@ -58,16 +64,12 @@ ul {
   color: #36b37f;
 }
 
+.color3 {
+  color: #67798e;
+}
+
 .center-text {
   text-align: center;
-}
-
-.big-font {
-  font-size: 40px;
-}
-
-.regular-font {
-  font-size: 20px;
 }
 
 .flex-row {
@@ -90,12 +92,20 @@ ul {
 
 .container,
 .container1 {
-  padding: 64px 0;
+  padding: 64px 24px;
   margin: 0 auto;
-  width: calc(100% - 48px);
+  width: 100%;
 }
 
-/* Toggle nav styles */
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+/* Toggle nav styles 
 .blur {
   filter: blur(3px);
 }
@@ -119,13 +129,18 @@ ul {
 
 #toggle-menu-close {
   color: #67798e;
-}
+}*/
 
 /* Header Styling */
 header {
   justify-content: space-between;
   align-items: center;
   padding: 24px;
+  flex-wrap: wrap;
+}
+
+#toggle-menu {
+  z-index: 100;
 }
 
 #logo {
@@ -135,6 +150,22 @@ header {
   line-height: 28px;
 }
 
+#navbar {
+  width: 100%;
+  background: #fff;
+}
+
+.mobile-nav {
+  min-height: 100vh;
+  background: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+/* Headline section style */
 #headline {
   align-items: center;
   background: url(assets/img/header-illsutration-mobile.svg);
@@ -236,7 +267,7 @@ header {
 .language li {
   background: #ebf0ee;
   border-radius: 4px;
-  padding: 8px 12px;
+  padding: 8px 10px;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -382,7 +413,7 @@ footer .social {
   header {
     justify-content: center;
     padding: 10px;
-    z-index: 100;
+    z-index: 9;
   }
 
   #headline {
