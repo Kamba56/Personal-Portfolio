@@ -285,7 +285,7 @@ header {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin: 0 4px;
+  margin: 0 3px;
   margin-bottom: 7px;
 }
 
@@ -391,15 +391,6 @@ footer .social {
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
-  .container {
-    width: 80%;
-    padding: 30px 0;
-  }
-
-  .container1 {
-    width: 60%;
-  }
-
   #toggle-menu,
   #logo,
   .logo-div,
@@ -502,5 +493,16 @@ footer .social {
   footer {
     padding: 5px;
     border-top: 1px solid #dfe1e6;
+  }
+}
+
+@media only screen and (min-width:775px) {
+  .container {
+    width: 80%;
+    padding: 30px 0;
+  }
+
+  .container1 {
+    width: 60%;
   }
 }
