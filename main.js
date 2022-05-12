@@ -34,3 +34,35 @@ iconEx.addEventListener('click', closeMenu);
 link.forEach((x) => {
   x.addEventListener('click', closeMenu);
 });
+
+
+const modal = document.querySelector('div.modal-back');
+// const body = document.querySelector('body');
+// const seeProjectButton = document.querySelector('.see-project-button');
+const seeProjectButton = Array.from(document.querySelectorAll('.see-project-button'));
+const close = document.querySelector('.close-popup');
+
+function openModal() {
+  
+  modal.classList.replace('d-none', 'd-block');
+  // body.style.position = 'fixed';
+  // body.style.top = `-${window.scrollY}px`;
+}
+
+function scrollBodyToInitial() {
+  const scrollY = body.style.top;
+  body.style.position = '';
+  body.style.top = '';
+  window.scrollTo(0, parseInt(scrollY || '0', 10) * -1);
+}
+
+function closeModal() {
+  modal.classList.replace('d-block', 'd-none');
+  // scrollBodyToInitial();
+}
+// seeProjectButton.addEventListener('click', () => {seeProjectButton.style.background = "red";});
+seeProjectButton.forEach((x) => {
+  x.addEventListener('click', openModal);
+});
+
+close.addEventListener('click', closeModal);
