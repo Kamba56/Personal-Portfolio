@@ -101,32 +101,6 @@ ul {
   display: block;
 }
 
-/* Toggle nav styles
-.blur {
-  filter: blur(3px);
-}
-
-.mobile-nav{
-  min-height: 100vh;
-  background: #ffffff;
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  z-index: 10;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-block {
-  display: block;
-}
-
-#toggle-menu-close {
-  color: #67798e;
-} */
-
 /* Header Styling */
 header {
   justify-content: space-between;
@@ -316,9 +290,10 @@ header {
   height: 100vh;
   position: fixed;
   z-index: 100;
-  /* top: 0; */
+  top: 0;
   padding: 4%;
   overflow: auto;
+  backdrop-filter: blur(8px);
 }
 
 .modal {
@@ -353,7 +328,10 @@ header {
   right: 35px;
   top: 30px;
   color: #fff;
-  font-size: x-large;
+  font-size: 20px;
+}
+.modal a.btn {
+  display: inline-block;
 }
 
 /* About section style */
@@ -547,7 +525,7 @@ footer .social {
     position: static;
     background: #ebecf0;
     align-self: flex-end;
-    padding: 6px 11px 5px;
+    padding: 5px 10px 4px;
     margin-bottom: 14px;
     border-radius: 8px;
     color: #c1c7d0;
