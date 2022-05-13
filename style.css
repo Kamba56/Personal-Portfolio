@@ -325,10 +325,14 @@ header {
 
 .close-popup {
   position: absolute;
-  right: 35px;
+  right: 30px;
   top: 30px;
   color: #fff;
   font-size: 20px;
+  box-shadow: 0 2px 3px #28352f40;
+  border-radius: 4px;
+  padding: 1px 5px 0px;
+  background: #c1c7d095;
 }
 
 .modal a.btn {
