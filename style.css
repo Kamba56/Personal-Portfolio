@@ -101,32 +101,6 @@ ul {
   display: block;
 }
 
-/* Toggle nav styles
-.blur {
-  filter: blur(3px);
-}
-
-.mobile-nav{
-  min-height: 100vh;
-  background: #ffffff;
-  width: 100%;
-  position: absolute;
-  top: 50px;
-  z-index: 10;
-}
-
-.d-none {
-  display: none;
-}
-
-.d-block {
-  display: block;
-}
-
-#toggle-menu-close {
-  color: #67798e;
-} */
-
 /* Header Styling */
 header {
   justify-content: space-between;
@@ -285,7 +259,7 @@ header {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  margin: 0 4px;
+  margin: 0 3px;
   margin-bottom: 7px;
 }
 
@@ -307,6 +281,58 @@ header {
 
 .btn:active {
   background: #008552;
+}
+
+/* PopUp modal style */
+.modal-back {
+  background: #c1c7d060;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  padding: 4%;
+  overflow: auto;
+  backdrop-filter: blur(5px);
+}
+
+.modal {
+  background: #fff;
+  padding: 16px;
+  position: relative;
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.modal figure {
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  height: auto;
+  min-height: 220px;
+  background: #eaf2fd;
+}
+
+.modal div ul.language {
+  margin-bottom: 12px;
+  justify-content: flex-start;
+}
+
+.modal div p {
+  margin-bottom: 16px;
+}
+
+.close-popup {
+  position: absolute;
+  right: 35px;
+  top: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.modal a.btn {
+  display: inline-block;
 }
 
 /* About section style */
@@ -391,15 +417,6 @@ footer .social {
 
 /* Media Queries */
 @media only screen and (min-width: 768px) {
-  .container {
-    width: 80%;
-    padding: 30px 0;
-  }
-
-  .container1 {
-    width: 60%;
-  }
-
   #toggle-menu,
   #logo,
   .logo-div,
@@ -502,5 +519,57 @@ footer .social {
   footer {
     padding: 5px;
     border-top: 1px solid #dfe1e6;
+  }
+
+  /* PopUp Query */
+  .close-popup {
+    position: static;
+    background: #ebecf0;
+    align-self: flex-end;
+    padding: 5px 10px 4px;
+    margin-bottom: 14px;
+    border-radius: 8px;
+    color: #c1c7d0;
+  }
+
+  .modal-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .modal-flex ul.language {
+    justify-self: flex-start;
+    order: 3;
+  }
+
+  .modal-flex h3 {
+    width: 62%;
+  }
+
+  .modal-flex p {
+    order: 4;
+    justify-self: flex-start;
+    margin: 20px auto;
+  }
+
+  .modal-flex .popup-buttons {
+    order: 2;
+    justify-self: flex-end;
+  }
+}
+
+@media only screen and (min-width: 775px) {
+  .container {
+    width: 80%;
+    padding: 30px 0;
+  }
+
+  .container1 {
+    width: 60%;
+  }
+
+  .modal-back {
+    padding: 4% 11.5%;
   }
 }
