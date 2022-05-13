@@ -187,3 +187,28 @@ seeProjectButton.forEach((button) => {
     closeModal();
   });
 });
+
+// Form Validation
+
+const email = document.getElementById('email');
+const form = document.getElementById('form-email');
+const displayMsg = document.getElementById('form-message-error');
+displayMsg.innerHTML = 'Your email address should be in lowercase';
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    displayMsg.style.visibility = 'visible';
+    displayMsg.classList.add('error-msg');
+    setTimeout(() => {
+      displayMsg.style.visibility = 'hidden';
+    }, 3000);
+  } else {
+    displayMsg.style.visibility = 'hidden';
+  }
+});
+
+let formData = {
+  full_name: '',
+  email: '',
+  comment: '',
+};
