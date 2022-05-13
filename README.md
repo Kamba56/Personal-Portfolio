@@ -36,7 +36,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse Community
-- [@silvia](https://github.com/silviatofana)
+- [@Silvia](https://github.com/silviatofana)
 
 ## 📝 License
 
