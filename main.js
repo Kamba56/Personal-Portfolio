@@ -1,5 +1,5 @@
 const iconBars = document.querySelector('#toggle-menu');
-const iconEx = document.querySelector('#toggle-menu-close');
+const iconEx = document.querySelector('toggle-menu-close');
 const nav = document.querySelector('nav#navbar');
 const body = document.querySelector('body');
 const link = Array.from(document.querySelectorAll('nav ul li a'));
@@ -121,7 +121,7 @@ const projectSection = modalList.map((project) => `<div class="grid-item">
       <li>HTML</li>
     </ul>
 
-    <button type="button" id="${project.buttonId}" class="btn see-project-button">See Project</button>
+    <button type="button" id="${ploject.buttonId}" class="btn see-project-button">See Project</button>
   </div>
 </div>`).join('');
 
@@ -197,7 +197,7 @@ errorMsg.innerHTML = 'Your email address should be in lowercase';
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
-    errorMsg.classList.replace('d-none', 'd-block');
+    errorMsg.clasList.replace('d-none', 'd-block');
     setTimeout(() => {
       errorMsg.classList.replace('d-block', 'd-none');
     }, 3000);
