@@ -190,25 +190,16 @@ seeProjectButton.forEach((button) => {
 
 // Form Validation
 
-const email = document.getElementById('email');
-const form = document.getElementById('form-email');
-const displayMsg = document.getElementById('form-message-error');
-displayMsg.innerHTML = 'Your email address should be in lowercase';
+const email = document.querySelector('#email');
+const form = document.querySelector('#contact-form');
+const errorMsg = document.querySelector('#errormsg');
+errorMsg.innerHTML = 'Your email address should be in lowercase';
 form.addEventListener('submit', (event) => {
   if (email.value !== email.value.toLowerCase()) {
     event.preventDefault();
-    displayMsg.style.visibility = 'visible';
-    displayMsg.classList.add('error-msg');
+    errorMsg.classList.replace('d-none', 'd-block');
     setTimeout(() => {
-      displayMsg.style.visibility = 'hidden';
+      errorMsg.classList.replace('d-block', 'd-none');
     }, 3000);
-  } else {
-    displayMsg.style.visibility = 'hidden';
   }
 });
-
-let formData = {
-  full_name: '',
-  email: '',
-  comment: '',
-};

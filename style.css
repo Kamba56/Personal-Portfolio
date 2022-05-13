@@ -331,7 +331,7 @@ header {
   font-size: 20px;
   box-shadow: 0 2px 3px #28352f40;
   border-radius: 4px;
-  padding: 1px 5px 0px;
+  padding: 1px 5px 0;
   background: #c1c7d095;
 }
 
@@ -410,6 +410,17 @@ section#contact {
   border: 1px solid #60c095;
 }
 
+#errormsg {
+  width: 100%;
+  padding: 3px 8px;
+  background: #fff7f7;
+  color: #ff6163;
+  border: 1px solid #ff6163;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
 /* Footer style */
 footer {
   padding-bottom: 200px;
@@ -463,7 +474,7 @@ footer .social {
     background-position-x: center;
     background-repeat: no-repeat;
     padding-top: 170px;
-    padding-bottom: 100px;
+    padding-bottom: 300px;
     z-index: 0;
   }
 
