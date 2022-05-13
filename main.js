@@ -42,61 +42,61 @@ const section = document.querySelector('#work .container');
 const modalList = [
   {
     buttonId: '1',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
   {
     buttonId: '2',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
   {
     buttonId: '3',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
   {
     buttonId: '4',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
   {
     buttonId: '5',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
   {
     buttonId: '6',
-    title: 'Keeping track of hundreds of components',
+    name: 'Keeping track of hundreds of components',
     image: './assets/img/Snapshoot-Portfolio.png',
     description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea, languages: html, css, javascript",
-    languages: ['github', 'ruby', 'Bootstrap'],
+    technologies: ['github', 'ruby', 'Bootstrap'],
     live: 'https://kamba56.github.io/Personal-Portfolio/',
     source: 'https://github.com/Kamba56/Personal-Portfolio.git',
   },
@@ -138,9 +138,9 @@ const popupList = modalList.map((project) => `<div class="modal-back">
     </figure>
 
     <div class="flex-column modal-flex">
-      <h3 class="semi-bold work-title">${project.title}</h3>
+      <h3 class="semi-bold work-title">${project.name}</h3>
       <ul class="language flex-row">
-        ${project.languages.map((lang) => `<li>${lang}</li>`).join('')}
+        ${project.technologies.map((lang) => `<li>${lang}</li>`).join('')}
       </ul>
       <p>${project.description}</p>
 
@@ -186,4 +186,20 @@ seeProjectButton.forEach((button) => {
     document.querySelector('#modal-container').innerHTML += checkButton(button);
     closeModal();
   });
+});
+
+// Form Validation
+
+const email = document.querySelector('#email');
+const form = document.querySelector('#contact-form');
+const errorMsg = document.querySelector('#errormsg');
+errorMsg.innerHTML = 'Your email address should be in lowercase';
+form.addEventListener('submit', (event) => {
+  if (email.value !== email.value.toLowerCase()) {
+    event.preventDefault();
+    errorMsg.classList.replace('d-none', 'd-block');
+    setTimeout(() => {
+      errorMsg.classList.replace('d-block', 'd-none');
+    }, 3000);
+  }
 });
