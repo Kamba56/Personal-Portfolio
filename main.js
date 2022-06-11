@@ -42,13 +42,13 @@ const section = document.querySelector('#work .container');
 const modalList = [
   {
     buttonId: '1',
-    name: 'Keeping track of hundreds of components',
-    image: './assets/img/Snapshoot-Portfolio.png',
+    name: 'Todo List',
+    image: './assets/screenshots/todo1.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ['github', 'ruby', 'Bootstrap'],
-    live: 'https://kamba56.github.io/Personal-Portfolio/',
-    source: 'https://github.com/Kamba56/Personal-Portfolio.git',
+      "This is an app that let's you write your activities for the day or a list of things to do or buy or work on. You can add to list, remove from list and edit list items.",
+    technologies: ['HTML5', 'CSS3', 'JavaScript ES6'],
+    live: 'https://kamba56.github.io/To-Do-List/dist/',
+    source: 'https://github.com/Kamba56/To-Do-List.git',
   },
   {
     buttonId: '2',
@@ -106,19 +106,16 @@ const workSection = document.createElement('div');
 workSection.classList.add('work-grid');
 const projectSection = modalList.map((project) => `<div class="grid-item">
   <figure>
-    <img src="#" alt="Picture of my work" />
+    <img src="${project.image}" alt="Picture of my work" />
   </figure>
 
   <div class="work-desc flex-column">
     <h3 class="semi-bold center-text work-title">
-      Multi-Post Stories Gain+Glory
+    ${project.name}
     </h3>
 
     <ul class="language flex-row">
-      <li>Ruby on rails</li>
-      <li>Css</li>
-      <li>Javascript</li>
-      <li>HTML</li>
+        ${project.technologies.map((lang) => `<li>${lang}</li>`).join('')}
     </ul>
 
     <button type="button" id="${project.buttonId}" class="btn see-project-button">See Project</button>
